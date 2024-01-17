@@ -5,8 +5,9 @@ export const SearchResultItemContainer = styled.div`
   align-items: center;
 
   height: 6em;
-
   gap: 1rem;
+
+  color: ${({ theme }) => theme.colors.white};
 
   &:hover {
     cursor: pointer;
